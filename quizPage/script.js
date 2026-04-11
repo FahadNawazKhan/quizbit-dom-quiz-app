@@ -121,9 +121,9 @@ option4.addEventListener('click', () => {
 submit.addEventListener('click', () => {
     if (!answered) return
     count++
-    localStorage.setItem('score',JSON.stringify(score))
+    localStorage.setItem('score', JSON.stringify(score))
     if (count === qnsArr.length) {
-        window.location.href = '../quizbit-dom-quiz-app/scorePage/scorePage.html'
+        window.location.href = '../scorePage/scorePage.html'
     }
     question.innerText = qnsArr[count].question
     answered = false
