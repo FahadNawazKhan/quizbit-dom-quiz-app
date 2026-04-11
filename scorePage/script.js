@@ -10,5 +10,5 @@ marks.innerText = score + '/5'
 restart.addEventListener('click', () => {
     score = 0
     localStorage.setItem('score', JSON.stringify(score))
-    window.location.href = '../quizPage/index.html'
+    window.location.href = '../quizPage/quizPage.html'
 })
