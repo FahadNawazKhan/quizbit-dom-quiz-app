@@ -121,3 +121,30 @@ body {
 #restart:hover {
     background-color: #832b35;
 }
+
+@media screen and (max-width: 520px) {
+    body{
+        background-size: cover;
+    }
+    #container{
+        width: 90%;
+        height: 60%;
+    }
+    #marks{
+        width: 80%;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 390px) {
+    body{
+        background-size: cover;
+    }
+    #container{
+        width: 90%;
+        height: 80%;
+    }
+    #marks{
+        width: 80%;
+        margin-top: 20px;
+    }
+}

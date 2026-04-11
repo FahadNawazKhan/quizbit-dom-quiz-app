@@ -50,8 +50,10 @@ a {
     background-color: #798a40;
 }
 
-/* Example: Apply styles if the screen is 600px wide or less */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 520px) {
+     body{
+        background-size: cover;
+    }
     #container{
         margin: 20px;
         border-radius: 50%;
