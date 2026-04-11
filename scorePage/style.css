@@ -1,0 +1,123 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url('/assets/quizbitbg.png');
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Canva Sans', sans-serif;
+}
+
+#container {
+    border: 3px solid;
+    width: 500px;
+    height: 500px;
+    border-radius: 40px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: -20px 0px 90px 3px rgb(0, 0, 0);
+}
+
+#marks {
+    margin-top: 5px;
+    background-color: #a8c256;
+    color: #fff4d5;
+    font-size: 100px;
+    font-weight: bold;
+    padding-inline: 20px;
+    width: 420px;
+    border-radius: 20px;
+    padding-block: 20px;
+    border: 3px solid black;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#qnsleft {
+    width: 20px;
+    height: 30px;
+    /* border: 1px solid; */
+    width: 85%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.q {
+    width: 100px;
+    border: 1px solid;
+    margin-inline: 10px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.count {
+    background-color: #5a6e18;
+}
+
+#options {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    transition: 0.3s;
+    height: 30%;
+}
+
+
+.option {
+    margin-top: 13px;
+    background-color: #f5ecd2;
+    color: #9f2626;
+    font-size: 21px;
+    font-weight: bold;
+    padding-inline: 20px;
+    width: 95%;
+    border-radius: 10px;
+    padding-block: 12px;
+    border: 3px solid black;
+  
+    transition: 0.3s;
+    height: 100%;
+}
+
+
+
+#restart {
+    margin-top: 15px;
+    width: 95%;
+    padding-block: 14px;
+    border-radius: 10px 10px 30px 30px;
+    color: #ffacbe;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #45151b;
+    cursor: pointer;
+    transition: 0.3s;
+    height: 23%;
+}
+
+
+.incorrect:hover {
+    background-color: #8b101e;
+}
+
+.correct:hover {
+    background-color: #8da92e;
+}
+
+#restart:hover {
+    background-color: #832b35;
+}

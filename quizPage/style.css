@@ -1,0 +1,129 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url('/assets/quizbitbg.png');
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Canva Sans', sans-serif;
+}
+
+#container {
+    border: 3px solid;
+    width: 500px;
+    height: 500px;
+    border-radius: 40px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: -20px 0px 90px 3px rgb(0, 0, 0);
+}
+
+#question {
+    margin-top: 5px;
+    background-color: #a8c256;
+    color: #fff4d5;
+    font-size: 21px;
+    font-weight: bold;
+    padding-inline: 20px;
+    width: 420px;
+    border-radius: 20px;
+    padding-block: 20px;
+    text-align: center;
+    border: 3px solid black;
+}
+
+#qnsleft {
+    width: 20px;
+    height: 30px;
+    /* border: 1px solid; */
+    width: 85%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.q {
+    width: 100px;
+    border: 1px solid;
+    margin-inline: 10px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.count {
+    background-color: #5a6e18;
+}
+
+#options {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    transition: 0.3s;
+}
+
+
+.option{
+    margin-top: 13px;
+    background-color: #f5ecd2;
+    color: #9f2626;
+    font-size: 21px;
+    font-weight: bold;
+    padding-inline: 20px;
+    width: 95%;
+    border-radius: 10px;
+    padding-block: 12px;
+    border: 3px solid black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.incorrect{
+    background-color: #b30b1f;
+    color: hsl(0, 0%, 100%);
+}
+
+.correct{
+    background-color: #a1d203;
+    color: #ffffff;
+}
+
+
+#submit {
+    margin-top: 15px;
+    width: 95%;
+    padding-block: 14px;
+    border-radius: 10px 10px 30px 30px;
+    color: #ffacbe;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #45151b;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.option:hover{
+    background-color: #ffe292;
+}
+
+.incorrect:hover{
+    background-color: #8b101e;
+}
+.correct:hover{
+    background-color: #8da92e;
+}
+
+#submit:hover {
+    background-color: #832b35;
+}
+
